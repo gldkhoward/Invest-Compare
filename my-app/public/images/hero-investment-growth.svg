@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8FAFC"/>
+  
+  <!-- Chart Area -->
+  <rect x="100" y="100" width="600" height="400" fill="#E2E8F0" rx="8"/>
+  
+  <!-- Growth Line -->
+  <path d="M100 450 L200 400 L300 350 L400 300 L500 250 L600 200 L700 150" 
+        stroke="#3B82F6" stroke-width="4" fill="none"/>
+  
+  <!-- Dots -->
+  <circle cx="100" cy="450" r="6" fill="#3B82F6"/>
+  <circle cx="200" cy="400" r="6" fill="#3B82F6"/>
+  <circle cx="300" cy="350" r="6" fill="#3B82F6"/>
+  <circle cx="400" cy="300" r="6" fill="#3B82F6"/>
+  <circle cx="500" cy="250" r="6" fill="#3B82F6"/>
+  <circle cx="600" cy="200" r="6" fill="#3B82F6"/>
+  <circle cx="700" cy="150" r="6" fill="#3B82F6"/>
+  
+  <!-- Grid Lines -->
+  <line x1="100" y1="100" x2="100" y2="500" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="100" y1="500" x2="700" y2="500" stroke="#CBD5E1" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="400" y="550" text-anchor="middle" fill="#64748B" font-size="16">Time</text>
+  <text x="50" y="300" text-anchor="middle" fill="#64748B" font-size="16" transform="rotate(-90, 50, 300)">Value</text>
+</svg> 
